@@ -36,29 +36,29 @@ Dataset yang digunakan dalam proyek berasal dari website [kaggle](https://www.ka
 
 ### Variabel-variabel pada Dataset ini adalah sebagai berikut:
 
-- ID: Nomor identifikasi unik untuk setiap pelanggan.
-- Year_Birth: Tahun kelahiran pelanggan.
-- Education: Tingkat pendidikan pelanggan (contoh: Sekolah Pemula, SMA, Diploma, Sarjana, Magister, Doktor).
-- Marital_Status: Status pernikahan pelanggan (contoh: Menikah, Lajang, Bercerai, Janda/Duda).
-- Income: Pendapatan tahunan rumah tangga pelanggan.
-- Kidhome: Jumlah anak-anak di rumah tangga pelanggan.
-- Teenhome: Jumlah remaja di rumah tangga pelanggan.
-- Dt_Customer: Tanggal pendaftaran pelanggan dengan perusahaan.
-- Recency: Jumlah hari sejak pelanggan terakhir kali melakukan pembelian.
-- Complain: Indikator apakah pelanggan mengajukan keluhan dalam 2 tahun terakhir (1 jika iya, 0 jika tidak).
-- MntWines: Jumlah uang yang dihabiskan pelanggan untuk pembelian anggur dalam 2 tahun terakhir.
-- MntFruits: Jumlah uang yang dihabiskan pelanggan untuk pembelian buah-buahan dalam 2 tahun terakhir.
-- MntMeatProducts: Jumlah uang yang dihabiskan pelanggan untuk pembelian produk daging dalam 2 tahun terakhir.
-- MntFishProducts: Jumlah uang yang dihabiskan pelanggan untuk pembelian produk ikan dalam 2 tahun terakhir.
-- MntSweetProducts: Jumlah uang yang dihabiskan pelanggan untuk pembelian produk manis dalam 2 tahun terakhir.
-- MntGoldProds: Jumlah uang yang dihabiskan pelanggan untuk pembelian emas dalam 2 tahun terakhir.
-- NumDealsPurchases: Jumlah pembelian yang dilakukan dengan diskon.
-- AcceptedCmp1 - AcceptedCmp5: Indikator apakah pelanggan menerima tawaran dalam masing-masing kampanye (1 jika iya, 0 jika tidak).
-- Response: Indikator apakah pelanggan menerima tawaran dalam kampanye terakhir (1 jika iya, 0 jika tidak).
-- NumWebPurchases: Jumlah pembelian yang dilakukan melalui situs web perusahaan.
-- NumCatalogPurchases: Jumlah pembelian yang dilakukan menggunakan katalog.
-- NumStorePurchases: Jumlah pembelian yang dilakukan langsung di toko fisik.
-- NumWebVisitsMonth: Jumlah kunjungan ke situs web perusahaan dalam sebulan terakhir.
+- ID: Nomor identifikasi unik untuk setiap pelanggan. (int64)
+- Year_Birth: Tahun kelahiran pelanggan. (int64)
+- Education: Tingkat pendidikan pelanggan (contoh: Sekolah Pemula, SMA, Diploma, Sarjana, Magister, Doktor). (object)
+- Marital_Status: Status pernikahan pelanggan (contoh: Menikah, Lajang, Bercerai, Janda/Duda). (object)
+- Income: Pendapatan tahunan rumah tangga pelanggan. (float64)
+- Kidhome: Jumlah anak-anak di rumah tangga pelanggan. (int64)
+- Teenhome: Jumlah remaja di rumah tangga pelanggan. (int64)
+- Dt_Customer: Tanggal pendaftaran pelanggan dengan perusahaan. (object)
+- Recency: Jumlah hari sejak pelanggan terakhir kali melakukan pembelian. (int64)
+- Complain: Indikator apakah pelanggan mengajukan keluhan dalam 2 tahun terakhir (1 jika iya, 0 jika tidak). (int64)
+- MntWines: Jumlah uang yang dihabiskan pelanggan untuk pembelian anggur dalam 2 tahun terakhir. (int64)
+- MntFruits: Jumlah uang yang dihabiskan pelanggan untuk pembelian buah-buahan dalam 2 tahun terakhir. (int64)
+- MntMeatProducts: Jumlah uang yang dihabiskan pelanggan untuk pembelian produk daging dalam 2 tahun terakhir. (int64)
+- MntFishProducts: Jumlah uang yang dihabiskan pelanggan untuk pembelian produk ikan dalam 2 tahun terakhir. (int64)
+- MntSweetProducts: Jumlah uang yang dihabiskan pelanggan untuk pembelian produk manis dalam 2 tahun terakhir. (int64)
+- MntGoldProds: Jumlah uang yang dihabiskan pelanggan untuk pembelian emas dalam 2 tahun terakhir. (int64)
+- NumDealsPurchases: Jumlah pembelian yang dilakukan dengan diskon. (int64)
+- AcceptedCmp1 - AcceptedCmp5: Indikator apakah pelanggan menerima tawaran dalam masing-masing kampanye (1 jika iya, 0 jika tidak). (int64)
+- Response: Indikator apakah pelanggan menerima tawaran dalam kampanye terakhir (1 jika iya, 0 jika tidak). (int64)
+- NumWebPurchases: Jumlah pembelian yang dilakukan melalui situs web perusahaan. (int64)
+- NumCatalogPurchases: Jumlah pembelian yang dilakukan menggunakan katalog. (int64)
+- NumStorePurchases: Jumlah pembelian yang dilakukan langsung di toko fisik. (int64)
+- NumWebVisitsMonth: Jumlah kunjungan ke situs web perusahaan dalam sebulan terakhir. (int64)
 
 ## Data Preparation
 
